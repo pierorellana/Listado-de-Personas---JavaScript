@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+html {
+    background-color: #0f0e17;
+    min-height: 1000px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    padding: 15px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 7px;
+}
+
+#cabecero {
+    background-color: #f25f4c;
+    text-align: center;
+}
+
+#personas {
+    margin: 20px;
+}
+
+.element {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    margin-left: 10px;
+}
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f25f4c;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 4px;
+    border-width: 0;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 50px;
+    top: 10px;
+    border: none;
+    font-weight: 500;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #f25f4c;
+}
+
+ ::placeholder {
+    color: grey;
+    opacity: 1;
+}
